@@ -1,0 +1,205 @@
+{
+  "columns" : [ {
+    "description" : "Crew Cab, Short Box",
+    "id" : "1"
+  }, {
+    "description" : "Crew Cab, Standard Box",
+    "id" : "2"
+  }, {
+    "description" : "Double Cab, Standard Box",
+    "id" : "3"
+  }, {
+    "description" : "Regular Cab, Standard Box",
+    "id" : "4"
+  }, {
+    "description" : "Regular Cab, Long Box",
+    "id" : "5"
+  } ],
+  "rows" : [ {
+    "description" : "4.3L EcoTec3 V6 engine",
+    "id" : "LV3"
+  }, {
+    "description" : "5.3L EcoTec3 V8&nbsp;engine",
+    "id" : "L83"
+  }, {
+    "description" : "6.2L EcoTec3 V8 engine",
+    "id" : "L86"
+  } ],
+  "table" : {
+    "LV3" : {
+      "1" : [ {
+        "axleRatio" : "GU5",
+        "bodyTypeId" : 1,
+        "driveType" : "2WD",
+        "engine" : "LV3",
+        "styleId" : 384196,
+        "transmission" : "MYC"
+      }, {
+        "axleRatio" : "GU6",
+        "bodyTypeId" : 1,
+        "driveType" : "4WD",
+        "engine" : "LV3",
+        "styleId" : 384211,
+        "transmission" : "MYC"
+      } ],
+      "2" : [ ],
+      "3" : [ {
+        "axleRatio" : "GU5",
+        "bodyTypeId" : 3,
+        "driveType" : "2WD",
+        "engine" : "LV3",
+        "styleId" : 384193,
+        "transmission" : "MYC"
+      }, {
+        "axleRatio" : "GU6",
+        "bodyTypeId" : 3,
+        "driveType" : "4WD",
+        "engine" : "LV3",
+        "styleId" : 384208,
+        "transmission" : "MYC"
+      } ],
+      "4" : [ {
+        "axleRatio" : "GU5",
+        "bodyTypeId" : 4,
+        "driveType" : "2WD",
+        "engine" : "LV3",
+        "styleId" : 384189,
+        "transmission" : "MYC"
+      }, {
+        "axleRatio" : "GU6",
+        "bodyTypeId" : 4,
+        "driveType" : "4WD",
+        "engine" : "LV3",
+        "styleId" : 384204,
+        "transmission" : "MYC"
+      } ],
+      "5" : [ {
+        "axleRatio" : "GU5",
+        "bodyTypeId" : 5,
+        "driveType" : "2WD",
+        "engine" : "LV3",
+        "styleId" : 384191,
+        "transmission" : "MYC"
+      }, {
+        "axleRatio" : "GU6",
+        "bodyTypeId" : 5,
+        "driveType" : "4WD",
+        "engine" : "LV3",
+        "styleId" : 384206,
+        "transmission" : "MYC"
+      } ]
+    },
+    "L83" : {
+      "1" : [ {
+        "axleRatio" : "GU6",
+        "bodyTypeId" : 1,
+        "driveType" : "2WD",
+        "engine" : "L83",
+        "styleId" : 384196,
+        "transmission" : "MYC"
+      }, {
+        "axleRatio" : "GU6",
+        "bodyTypeId" : 1,
+        "driveType" : "4WD",
+        "engine" : "L83",
+        "styleId" : 384211,
+        "transmission" : "MYC"
+      } ],
+      "2" : [ {
+        "axleRatio" : "GU4",
+        "bodyTypeId" : 2,
+        "driveType" : "4WD",
+        "engine" : "L83",
+        "styleId" : 384215,
+        "transmission" : "MYC"
+      } ],
+      "3" : [ {
+        "axleRatio" : "GU6",
+        "bodyTypeId" : 3,
+        "driveType" : "2WD",
+        "engine" : "L83",
+        "styleId" : 384193,
+        "transmission" : "MYC"
+      }, {
+        "axleRatio" : "GU6",
+        "bodyTypeId" : 3,
+        "driveType" : "4WD",
+        "engine" : "L83",
+        "styleId" : 384208,
+        "transmission" : "MYC"
+      } ],
+      "4" : [ {
+        "axleRatio" : "GU6",
+        "bodyTypeId" : 4,
+        "driveType" : "2WD",
+        "engine" : "L83",
+        "styleId" : 384189,
+        "transmission" : "MYC"
+      }, {
+        "axleRatio" : "GU6",
+        "bodyTypeId" : 4,
+        "driveType" : "4WD",
+        "engine" : "L83",
+        "styleId" : 384204,
+        "transmission" : "MYC"
+      } ],
+      "5" : [ {
+        "axleRatio" : "GU6",
+        "bodyTypeId" : 5,
+        "driveType" : "2WD",
+        "engine" : "L83",
+        "styleId" : 384191,
+        "transmission" : "MYC"
+      }, {
+        "axleRatio" : "GU6",
+        "bodyTypeId" : 5,
+        "driveType" : "4WD",
+        "engine" : "L83",
+        "styleId" : 384206,
+        "transmission" : "MYC"
+      } ]
+    },
+    "L86" : {
+      "1" : [ {
+        "axleRatio" : "GU6",
+        "bodyTypeId" : 1,
+        "driveType" : "2WD",
+        "engine" : "L86",
+        "styleId" : 384198,
+        "transmission" : "M5U"
+      }, {
+        "axleRatio" : "GU6",
+        "bodyTypeId" : 1,
+        "driveType" : "4WD",
+        "engine" : "L86",
+        "styleId" : 384213,
+        "transmission" : "M5U"
+      } ],
+      "2" : [ {
+        "axleRatio" : "GU6",
+        "bodyTypeId" : 2,
+        "driveType" : "4WD",
+        "engine" : "L86",
+        "styleId" : 384217,
+        "transmission" : "M5U"
+      } ],
+      "3" : [ {
+        "axleRatio" : "GU5",
+        "bodyTypeId" : 3,
+        "driveType" : "2WD",
+        "engine" : "L86",
+        "styleId" : 384195,
+        "transmission" : "M5U"
+      }, {
+        "axleRatio" : "GU5",
+        "bodyTypeId" : 3,
+        "driveType" : "4WD",
+        "engine" : "L86",
+        "styleId" : 384210,
+        "transmission" : "M5U"
+      } ],
+      "4" : [ ],
+      "5" : [ ]
+    }
+  }
+}
