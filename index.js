@@ -40,11 +40,12 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch('matrix.json').then(res => res.json()),
     fetch('config.json').then(res => res.json()),
     fetch('model.json').then(res => res.json()),
-    fetch('features.json').then(res => res.json())
+    fetch('features.json').then(res => res.json()),
+    fetch('capability.json').then(res => res.json())
   ];
 
   Promise.all(promises)
-    .then(([matrix, config, model, features]) => {
+    .then(([matrix, config, model, features, capability]) => {
       const engines = config.modelMatrix.engine
         .reduce((hash, engine) => {
           hash[engine.id] = engine;
